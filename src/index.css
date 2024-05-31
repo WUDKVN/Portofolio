@@ -2,9 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline;
-    font-family: 'Times New Roman', Times, serif;
-}
