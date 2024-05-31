@@ -1,9 +1,11 @@
 import Nav from "./nav"
+import Hero from "./hero"
 
 const main = () => {
   return (
-  <div className="bg-indigo-600">
+  <div className="bg-blue-800">
     <Nav/>
+    <Hero/>
   </div>
   )
 }
