@@ -9,8 +9,8 @@ export default function project() {
   return (
    <>
      <div className='bg-blue-900 m-20 max-w-full'>
-         <div className='grid justify-item-center m-10'>
-            <h1 className='text-3xl text-white mt-10'>Projects</h1>
+         <div className='grid justify-items-center n-10'>
+            <h1 className='text-3xl text-white nt-10'>Projects</h1>
          </div>
 
          <div>
