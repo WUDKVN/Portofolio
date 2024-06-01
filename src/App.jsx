@@ -4,6 +4,7 @@ import Hero from './components/hero';
 import Service from './components/service';
 import Project from './components/project';
 import Contact from './components/contact';
+import Footer from './components/footer';
 
 
 
@@ -22,6 +23,9 @@ function App() {
       </section>
       <section id="contact">
         <Contact />
+      </section>
+      <section id="footer">
+       <Footer />
       </section>
     </div>
   );
