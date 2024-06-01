@@ -3,14 +3,12 @@ import Project2Img from '../assets/project2.jpeg'
 import Project3Img from '../assets/project3.png'
 import Project4Img from '../assets/project4.png'
 
-
-
-export default function project() {
+export default function Project() {
   return (
    <>
-     <div className='bg-blue-900 m-20 max-w-full'>
+     <div className='bg-black m-20 max-w-full'>
          <div className='grid justify-items-center n-10'>
-            <h1 className='text-3xl text-white nt-10'>Projects</h1>
+            <h1 className='text-4xl text-white nt-10'>PROJECTS</h1>
          </div>
 
          <div>
@@ -21,17 +19,17 @@ export default function project() {
                   <div className='md:flex'>
                      <div className='p-8'>
                         <div className='uppercase tracking-wide text-sm to-blue-500
-                        font-semibold'>
-                          Creation of Table
+                        font-bold'>
+                          TABLE SHOW
                         </div>
-                        <a href='#'>Subheading</a>
-                        <p className='mt-2 text-slate-500'>
-                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                          Velit odit veniam repellat!
+                        <a href='http://studentweb.cencol.ca/kawudi/table/assignment1.html' target="_blank" rel="noopener noreferrer" 
+                        style={{ color: 'blue', textDecoration:'underline' }}>View Project...</a>
+                         <p className='mt-2 text-slate-500'>
+                         I created a project that dynamically generates a table based on the number of columns entered by the user.
                         </p>
                      </div>
                      <div className='md:shrink-0 p-5'>
-                         <img src={Project1Img} alt="Project1" width={150} height={150} />
+                         <img src={Project2Img} alt="Project1" width={250} height={200} />
                      </div>
                   </div>
 
@@ -42,17 +40,17 @@ export default function project() {
 
                   <div className='md:flex'>
                   <div className='md:shrink-0 p-5'>
-                         <img src={Project2Img} alt="Project2" width={150} height={150} />
+                         <img src={Project1Img} alt="Project2" width={250} height={200} />
                      </div>
                      <div className='p-8'>
                         <div className='uppercase tracking-wide text-sm to-blue-500
-                        font-semibold'>
+                        font-bold'>
                           Real Estate website
                         </div>
-                        <a href='#'>Subheading</a>
+                        <a href='http://studentweb.cencol.ca/kawudi/estate/home.html' style={{ color: 'blue', textDecoration:'underline' }} 
+                        target="_blank" rel="noopener noreferrer">View Project...</a>
                         <p className='mt-2 text-slate-500'>
-                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                          Velit odit veniam repellat!
+                        I created a Real Estate project that allows users to book appointments online.
                         </p>
                      </div>
                     
@@ -70,17 +68,17 @@ export default function project() {
                   <div className='md:flex'>
                      <div className='p-8'>
                         <div className='uppercase tracking-wide text-sm to-blue-500
-                        font-semibold'>
+                        font-bold'>
                           Movie Home Page
                         </div>
-                        <a href='#'>Subheading</a>
+                        <a href='http://studentweb.cencol.ca/kawudi/bug/index.html' style={{ color: 'blue', textDecoration:'underline' }} 
+                        target="_blank" rel="noopener noreferrer">View Project...</a>
                         <p className='mt-2 text-slate-500'>
-                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                          Velit odit veniam repellat!
+                        I created a movie website homepage that features the latest releases, trailers, and movie details.
                         </p>
                      </div>
                      <div className='md:shrink-0 p-5'>
-                         <img src={Project3Img} alt="Project3" width={150} height={150} />
+                         <img src={Project3Img} alt="Project3" width={250} height={200} />
                      </div>
                   </div>
 
@@ -91,17 +89,17 @@ export default function project() {
 
                   <div className='md:flex'>
                   <div className='md:shrink-0 p-5'>
-                         <img src={Project4Img} alt="Project4" width={150} height={150} />
+                         <img src={Project4Img} alt="Project4" width={250} height={200} />
                      </div>
                      <div className='p-8'>
                         <div className='uppercase tracking-wide text-sm to-blue-500
-                        font-semibold'>
-                          Bug Smasher
+                        font-bold'>
+                          Bug Smasher Game 
                         </div>
-                        <a href='#'>Subheading</a>
+                        <a href='http://studentweb.cencol.ca/kawudi/bug/index.html' style={{ color: 'blue', textDecoration:'underline' }} 
+                        target="_blank" rel="noopener noreferrer">View Project...</a>
                         <p className='mt-2 text-slate-500'>
-                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                          Velit odit veniam repellat!
+                        I created a Bug Smasher Game where players score points by clicking on moving bugs to squash them.
                         </p>
                      </div>
                     

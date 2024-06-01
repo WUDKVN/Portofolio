@@ -16,7 +16,7 @@ const Nav = () => {
 
   return (
     <>
-      <div className="flex items-center justify-between p-6 lg:flex-row bg-blue-700">
+      <div className="flex items-center justify-between p-6 lg:flex-row bg-black">
         <div>
           <a href="#" className="text-white font-bold text-3xl tracking-wider flex items-center">
             <DiAtom /> PORTOFOLIO
@@ -25,9 +25,9 @@ const Nav = () => {
         <div className="flex-grow"></div>
         <div className="space-x-4 flex">
           <div className='ssm:hidden lg:block space-x-2'>
-            <a href="#" className="text-white font-bold hover:bg-blue-900 rounded-full px-5 py-2 text-xl">Skills</a>
-            <a href="#" className="text-white font-bold hover:bg-blue-900 rounded-full px-5 py-2 text-xl">Projects</a>
-            <a href="#" className="text-white font-bold hover:bg-blue-900 rounded-full px-5 py-2 text-xl">Testimonials</a>
+            <a href="#" className="text-white font-bold hover:bg-white rounded-full px-5 py-2 text-xl">Skills</a>
+            <a href="#" className="text-white font-bold hover:bg-white rounded-full px-5 py-2 text-xl">Projects</a>
+            <a href="#" className="text-white font-bold hover:bg-white rounded-full px-5 py-2 text-xl">Testimonials</a>
           </div>
         </div>
         <div className='ssm:block lg:hidden'>
@@ -57,3 +57,4 @@ const Nav = () => {
 };
 
 export default Nav;
+
