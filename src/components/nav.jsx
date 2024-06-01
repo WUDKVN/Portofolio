@@ -43,9 +43,9 @@ const Nav = () => {
         {toggle ? (
           <div className='flex justify-between ml-10'>
             <ul>
-              <li className='text-white text-xl px-10 mb-2 cursor-pointer'>Skills</li>
-              <li className='text-white text-xl px-10 mb-2 cursor-pointer'>Projects</li>
-              <li className='text-white text-xl px-10 mb-2 cursor-pointer'>Testimonials</li>
+              <li className='text-grey font-bold hover:bg-black rounded-full text-xl px-10 mb-2 cursor-pointer'>Skills</li>
+              <li className='text-grey font-bold hover:bg-black rounded-full text-xl px-10 mb-2 cursor-pointer'>Projects</li>
+              <li className='text-grey font-bold hover:bg-black rounded-full text-xl px-10 mb-2 cursor-pointer'>Testimonials</li>
             </ul>
           </div>
         ) : (
