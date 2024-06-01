@@ -18,16 +18,16 @@ const Nav = () => {
     <>
       <div className="flex items-center justify-between p-6 lg:flex-row bg-black">
         <div>
-          <a href="#" className="text-white font-bold text-3xl tracking-wider flex items-center">
-            <DiAtom /> PORTOFOLIO
+          <a href="#home" className="text-white font-bold text-3xl tracking-wider flex items-center">
+            <DiAtom /> PORTFOLIO
           </a>
         </div>
         <div className="flex-grow"></div>
         <div className="space-x-4 flex">
           <div className='ssm:hidden lg:block space-x-2'>
-            <a href="#" className="text-white font-bold hover:bg-white rounded-full px-5 py-2 text-xl">Skills</a>
-            <a href="#" className="text-white font-bold hover:bg-white rounded-full px-5 py-2 text-xl">Projects</a>
-            <a href="#" className="text-white font-bold hover:bg-white rounded-full px-5 py-2 text-xl">Testimonials</a>
+            <a href="#services" className="text-white font-bold hover:bg-white rounded-full px-5 py-2 text-xl">Services</a>
+            <a href="#projects" className="text-white font-bold hover:bg-white rounded-full px-5 py-2 text-xl">Projects</a>
+            <a href="#contact" className="text-white font-bold hover:bg-white rounded-full px-5 py-2 text-xl">Contact</a>
           </div>
         </div>
         <div className='ssm:block lg:hidden'>
@@ -43,18 +43,16 @@ const Nav = () => {
         {toggle ? (
           <div className='flex justify-between ml-10'>
             <ul>
-              <li className='text-grey font-bold hover:bg-black rounded-full text-xl px-10 mb-2 cursor-pointer'>Skills</li>
-              <li className='text-grey font-bold hover:bg-black rounded-full text-xl px-10 mb-2 cursor-pointer'>Projects</li>
-              <li className='text-grey font-bold hover:bg-black rounded-full text-xl px-10 mb-2 cursor-pointer'>Testimonials</li>
+              <li><a href="#home" className='text-grey font-bold hover:bg-black rounded-full text-xl px-10 mb-2 cursor-pointer'>Home</a></li>
+              <li><a href="#projects" className='text-grey font-bold hover:bg-black rounded-full text-xl px-10 mb-2 cursor-pointer'>Projects</a></li>
+              <li><a href="#services" className='text-grey font-bold hover:bg-black rounded-full text-xl px-10 mb-2 cursor-pointer'>Services</a></li>
+              <li><a href="#contact" className='text-grey font-bold hover:bg-black rounded-full text-xl px-10 mb-2 cursor-pointer'>Contact</a></li>
             </ul>
           </div>
-        ) : (
-          <div></div>
-        )}
+        ) : null}
       </div>
     </>
   );
 };
 
 export default Nav;
-

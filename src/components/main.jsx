@@ -1,7 +1,8 @@
 import Nav from "./nav"
 import Hero from "./hero"
 import Project from "./project"
-import Testimonial from "./testimonial"
+import Service from "./service"
+import Contact from "./contact"
 import Footer from "./footer"
 
 const main = () => {
@@ -10,7 +11,8 @@ const main = () => {
     <Nav/>
     <Hero/>
     <Project/>
-    <Testimonial/>
+    <Service/>
+    <Contact/>
     <Footer/>
   </div>
   )

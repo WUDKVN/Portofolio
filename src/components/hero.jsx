@@ -29,10 +29,12 @@ const Hero = () => {
             Through these projects, 
             I aim to demonstrate my skills, creativity, and commitment to excellence. 
             I hope you enjoy exploring my work as much as I enjoyed creating it!
+            
 
             
             </span>
           )}
+
 
         <button 
           className='bg-black text-white px-10 py-2 my-2 rounded-full hover:bg-blue-900 hover:text-white' 
@@ -41,7 +43,9 @@ const Hero = () => {
           {showMore ? 'Show Less...' : 'Show More...'}
         </button>
         
+        
         </p>
+        
       </div>
       <div className='flex justify-center items-center lg:w-1/3 ssm:w-fit'>
         <div>
@@ -103,6 +107,17 @@ const Hero = () => {
         >
           {showMore ? 'Show Less...' : 'Show More...'}
         </button>
+
+        <div className='mt-4'>
+          <a 
+            href="/resume.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className='text-blue-600 hover:text-blue-800 underline'
+          >
+            Download my Resume (PDF)
+          </a>
+        </div>
    
       </div>
     </section>
