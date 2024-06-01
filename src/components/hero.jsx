@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsFacebook, BsGithub, BsInstagram, BsWhatsapp } from 'react-icons/bs'; // Social media icons
-import HeroPic from '../assets/kev.jpeg'; // Image import
+import HeroPic from '../assets/kev.jpg'; // Image import
 
 const Hero = () => {
   return (
