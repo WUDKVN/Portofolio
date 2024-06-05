@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaPhoneAlt, FaEnvelope, FaInstagram } from 'react-icons/fa';
-import emailjs from 'emailjs-com';
+
 
 const Contact = () => {
   const [formSubmitted, setFormSubmitted] = useState(false);
@@ -8,18 +8,9 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID')
-      .then((result) => {
-        console.log(result.text);
-        setFormSubmitted(true);
-      }, (error) => {
-        console.log(error.text);
-      });
+  
 
-    // Reset form fields
-    e.target.reset();
-
-    // Hide the popup after a few seconds
+   
     setTimeout(() => setFormSubmitted(false), 3000);
   };
 
@@ -30,7 +21,7 @@ const Contact = () => {
           <h1 className="text-4xl mb-4 font-bold">Contact</h1>
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label className="block mb-2 text-sm font-medium">Name:</label>
+              <label className="block mb-2 text-sm font-medium ">Name: *</label>
               <input
                 type="text"
                 name="user_name"
@@ -39,7 +30,7 @@ const Contact = () => {
               />
             </div>
             <div>
-              <label className="block mb-2 text-sm font-medium">Email:</label>
+              <label className="block mb-2 text-sm font-medium">Email: *</label>
               <input
                 type="email"
                 name="user_email"
@@ -48,7 +39,7 @@ const Contact = () => {
               />
             </div>
             <div>
-              <label className="block mb-2 text-sm font-medium">Message:</label>
+              <label className="block mb-2 text-sm font-medium">Message: *</label>
               <textarea
                 name="message"
                 className="w-full px-4 py-2 bg-white text-black rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"

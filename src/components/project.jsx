@@ -1,7 +1,3 @@
-import Project1Img from '../assets/project1.png'
-import Project2Img from '../assets/project2.jpeg'
-import Project3Img from '../assets/project3.png'
-import Project4Img from '../assets/project4.png'
 
 export default function Project() {
   return (
@@ -29,7 +25,7 @@ export default function Project() {
                         </p>
                      </div>
                      <div className='md:shrink-0 p-5'>
-                         <img src={Project2Img} alt="Project1" width={250} height={200} />
+                         <img src='../assets/project1.png' alt="Project1" width={250} height={200} />
                      </div>
                   </div>
 
@@ -40,7 +36,7 @@ export default function Project() {
 
                   <div className='md:flex'>
                   <div className='md:shrink-0 p-5'>
-                         <img src={Project1Img} alt="Project2" width={250} height={200} />
+                         <img src='../assets/project2.jpeg' alt="Project2" width={250} height={200} />
                      </div>
                      <div className='p-8'>
                         <div className='uppercase tracking-wide text-sm to-blue-500
@@ -78,7 +74,7 @@ export default function Project() {
                         </p>
                      </div>
                      <div className='md:shrink-0 p-5'>
-                         <img src={Project3Img} alt="Project3" width={250} height={200} />
+                         <img src='../assets/project3.png' alt="Project3" width={250} height={200} />
                      </div>
                   </div>
 
@@ -89,7 +85,7 @@ export default function Project() {
 
                   <div className='md:flex'>
                   <div className='md:shrink-0 p-5'>
-                         <img src={Project4Img} alt="Project4" width={250} height={200} />
+                         <img src='../assets/project4.png' alt="Project4" width={250} height={200} />
                      </div>
                      <div className='p-8'>
                         <div className='uppercase tracking-wide text-sm to-blue-500

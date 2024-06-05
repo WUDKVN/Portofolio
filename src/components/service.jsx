@@ -1,8 +1,3 @@
-import T1 from "../assets/T1.png"
-import T2 from "../assets/T2.jpg"
-import T3 from "../assets/T3.jpg"
-import T4 from "../assets/T4.jpg"
-
 export default function Service() {
   return (
     <div className="bg-black m-10">
@@ -14,7 +9,7 @@ export default function Service() {
           <div className="overflow-hidden relative max-w-xs bg-white shadow-lg ring-1 ring-black/5 
           rounded-xl flex items-center gap-6 white dark:highlight-white/5">
             <img 
-              src={T1}
+              src='../assets/T1.png'
               className="absolute -left-6 w-24 h-24 rounded-full shadow-lg"
             />
              <div className="min-w-0 py-5 pl-28 pr-5">
@@ -31,7 +26,7 @@ export default function Service() {
           <div className="overflow-hidden relative max-w-xs bg-white shadow-lg ring-1 ring-black/5 
           rounded-xl flex items-center gap-6 white dark:highlight-black/5">
             <img 
-              src={T2}
+              src='../assets/T2.jpg'
               className="absolute -left-6 w-24 h-24 rounded-full shadow-lg"
             />
             <div className="min-w-0 py-5 pl-28 pr-5">
@@ -48,7 +43,7 @@ export default function Service() {
           <div className="overflow-hidden relative max-w-xs bg-white shadow-lg ring-1 ring-black/5 
           rounded-xl flex items-center gap-6 white dark:highlight-black/5">
             <img 
-              src={T3}
+              src='../assets/T3.jpg'
               className="absolute -left-6 w-24 h-24 rounded-full shadow-lg"
             />
             <div className="min-w-0 py-5 pl-28 pr-5">
@@ -65,7 +60,7 @@ export default function Service() {
           <div className="overflow-hidden relative max-w-xs bg-white shadow-lg ring-1 ring-black/5 
           rounded-xl flex items-center gap-6 white dark:highlight-white/5">
             <img 
-              src={T4}
+              src='../assets/T4.jpg'
               className="absolute -left-6 w-24 h-24 rounded-full shadow-lg"
             />
             <div className="min-w-0 py-5 pl-28 pr-5">

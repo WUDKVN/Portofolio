@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BsGithub, BsInstagram, BsWhatsapp } from 'react-icons/bs'; // Social media icons
-import HeroPic from '../assets/kev.jpg'; // Image import
 import { FaSnapchat } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import ReadMore from './ReadMore';
@@ -38,7 +37,7 @@ const Hero = () => {
       </div>
       <div className='flex justify-center items-center lg:w-1/3 ssm:w-fit'>
         <div>
-          <img src={HeroPic} alt="Hero" className='rounded-full border-8 border-black' style={{ width: '400px', height: '400px', color: 'black' }} />
+          <img src='../assets/kev.jpg' alt="Hero" className='rounded-full border-8 border-black' style={{ width: '400px', height: '400px', color: 'black' }} />
 
 
           <div className='flex mt-6 space-x-10 cursor-pointer'>
@@ -74,9 +73,9 @@ const Hero = () => {
 
         <div className='mt-4'>
           <a
-            href="/resume.pdf"
-            target="_blank"
+            href="../assets/resume.pdf"
             rel="noopener noreferrer"
+            download
             className='text-blue-600 hover:text-blue-800 underline'
           >
             Download my Resume (PDF)
